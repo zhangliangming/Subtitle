@@ -69,7 +69,7 @@
 2.app build.gradle
 
    `dependencies {
-	        implementation 'com.github.zhangliangming:Subtitle:v1.0'
+	        implementation 'com.github.zhangliangming:Subtitle:v1.2'
 	}`
 
 # 混淆注意 #
