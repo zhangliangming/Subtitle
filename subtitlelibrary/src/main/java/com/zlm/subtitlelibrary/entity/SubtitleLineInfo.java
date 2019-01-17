@@ -46,7 +46,7 @@ public class SubtitleLineInfo {
     }
 
     public void setSubtitleText(String subtitleText) {
-        this.subtitleText = subtitleText.replaceAll("\r|\n", "");
+        this.subtitleText = subtitleText.replaceAll("\r", "");
     }
 
     public String getSubtitleHtml() {

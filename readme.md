@@ -47,13 +47,21 @@
 ## ass字幕 ##
 [ASS字幕格式规范](https://www.douban.com/note/658520175/)
 
+# 日志 #
+## 2019-01-17 ##
+- 添加字幕预览视图
+
 
 # 预览图 #
 ## srt字幕 ##
 ![](https://i.imgur.com/SQMQBok.png)
 
+![](https://i.imgur.com/P4WqgeC.png)
+
 ## ass字幕 ##
 ![](https://i.imgur.com/MQ5xnUW.png)
+
+![](https://i.imgur.com/Fdvnjh2.png)
 
 # Gradle #
 

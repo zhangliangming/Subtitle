@@ -60,4 +60,19 @@ public class TimeUtil {
         minute %= 60;
         return String.format("%02d:%02d:%02d.%02d", hour, minute, second, msec / 10);
     }
+
+    /**
+     * 毫秒转时间字符串
+     *
+     * @param msecTotal
+     * @return 00:00:00
+     */
+    public static String parseHHMMSSString(int msecTotal) {
+        msecTotal /= 1000;
+        int minute = msecTotal / 60;
+        int hour = minute / 60;
+        int second = msecTotal % 60;
+        minute %= 60;
+        return String.format("%02d:%02d:%02d", hour, minute, second);
+    }
 }

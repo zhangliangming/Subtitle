@@ -93,7 +93,7 @@ public class SrtSubtitleFileReader extends SubtitleFileReader {
                 subtitleTextString += result[0];
                 subtitleHtmlString += result[1];
                 if (i != subtitleLines.length - 1) {
-                    subtitleTextString += "<br>";
+                    subtitleTextString += "\n";
                     subtitleHtmlString += "<br>";
                 }
             }

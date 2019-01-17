@@ -100,7 +100,7 @@ public class AssSubtitleFileReader extends SubtitleFileReader {
                 subtitleHtmlString += result[1];
 
                 if (i != splitSubtitles.length - 1) {
-                    subtitleTextString += "<br>";
+                    subtitleTextString += "\n";
                     subtitleHtmlString += "<br>";
                 }
             }
